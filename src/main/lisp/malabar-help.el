@@ -29,7 +29,7 @@
 ;;     http://java.sun.com/javase/6/docs/api/java/lang/String.html#codePointAt%28int%29
 
 (defcustom malabar-help-docset "http://java.sun.com/javase/6/docs/api"
-  "The suffix of a test class."
+  "The url to load java documentation from. This can be local and remote"
   :group 'malabar-mode
   :type 'string)
 
