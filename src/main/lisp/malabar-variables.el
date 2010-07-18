@@ -56,7 +56,8 @@
                                          'semantic-ia-complete-symbol-menu
                                        'semantic-ia-complete-symbol))
       (define-key prefix-map [?\C-.] 'semantic-ia-complete-symbol)
-      (define-key prefix-map [?\C-p] 'malabar-visit-project-file) 
+      (define-key prefix-map [?\C-p] 'malabar-visit-project-file)
+      (define-key prefix-map [?\C-w] 'malabar-help-class) 
       (define-key prefix-map [?\C-y] 'malabar-jump-to-thing)
       (define-key prefix-map [?\C-r] malabar-refactor-map)
       (define-key map malabar-mode-key-prefix prefix-map))
