@@ -20,6 +20,8 @@
 
 ;; this file tries to mimick jde-help and is largely based on it
 
+;; This file is not part of GNU Emacs.
+
 (require 'malabar-misc)
 (require 'malabar-util)
 (require 'malabar-variables)
